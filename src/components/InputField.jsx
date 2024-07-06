@@ -19,7 +19,7 @@ function InputField() {
                 value={task} 
                 onChange={(e) => setTask(e.target.value)}/>
         <button type='submit' 
-                className='add bg-zinc-900 hover:border-solid transition delay-50 hover:border-sky-900 border-2 border-transparent rounded py-3 px-5 outline-none w-full sm:w-auto'        >Add</button>
+                className='add bg-zinc-900 hover:border-solid transition delay-50 hover:border-sky-900 border-2 border-transparent rounded py-3 px-5 outline-none w-full sm:w-auto'>Add</button>
     </form>
   )
 }
