@@ -1,13 +1,7 @@
 import { useContext, createContext } from "react";
 
 export const taskContext = createContext({
-    tasks: [
-        // {
-        //     id: 1,
-        //     task: "msg",
-        //     completed: false,
-        // }
-    ],
+    tasks: [],
     addTask: (task) => {},
     updateTask: (id,task) => {},
     deleteTask: (id) => {},

@@ -65,6 +65,12 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
+  .add{
+    color: #ffffff;
+  }
+  .appdiv{
+    background-color: slategrey;
+  }
   a:hover {
     color: #747bff;
   }

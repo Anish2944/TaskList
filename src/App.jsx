@@ -64,11 +64,11 @@ function App() {
 
   return ( 
     <TaskProvider value={{tasks, addTask,deleteTask,updateTask,toggelComplete}}>
-      <h1 className='text-center my-4'>Task List</h1>
-      <div className='w-full text-xl p-8 my-7 rounded-md bg-gray-800 border-2 border-stone-950'>
+      <h1 className='text-center my-4 text-4xl md:text-6xl'>Task List</h1>
+      <div className='appdiv w-full text-xl p-4 sm:p-8 my-7 rounded-md bg-gray-800 border-2 border-stone-950'>
         <InputField />
         {tasks.map((task) => (
-          <div key={task.id}>
+          <div key={task.id} className='p-2'>
             <ListItem task={task}/>
           </div>
         ))}
